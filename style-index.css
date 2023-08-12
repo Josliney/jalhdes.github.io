@@ -1,0 +1,123 @@
+body {
+    background-color: #0a0a5c;
+    color: #fff;
+    margin: 15px;
+}
+
+*::selection {
+    background-color: #0fd;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Estilos que definen el título de la página */
+
+.header__título--h1 {
+    font-size: 75px;
+    font-family: 'Handjet';
+}
+
+/* Estilos que definen la navegación de la página */
+
+.nav__líneaDivisora--div { /*Estilo para la barra divisora*/
+    width: 100%;
+    height: 2px;
+    background-color: #444;
+}
+
+.nav__barraNavegación--div-div { /*Contenedor flexbox*/
+    display: flex;
+    background-color: #8d0;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2px 0 2px 0;
+}
+
+.nav__barraNavegación--div-div-a { /*Contenido flebox*/
+    color: #dc143c;
+    text-decoration: underline;
+    font-family: 'arial';
+    font-weight: bold;
+}
+
+.nav__opciones--div {
+    color: #ff0;
+    font-size: 30px;
+    display: inline-block;
+}
+
+/* Estilos que definen el article section 1 */
+
+.article__sección1--section-h2 { /*clase para todos los h2*/
+    color: #f80;
+    font-family: 'Handjet';
+    font-size: 60px;
+}
+
+.amarillo {
+    color: #ff0;
+}
+
+/*párrafo*/
+
+.article__sección1--section-p {
+    background-color: #666;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+/* Estilos que definen el article section 2 (imágenes de logos) */
+
+.article__ordenDeImágenes--section-div { /*contenedor flex*/
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.imágenesLogoConocimientos p { /*contenido flx*/
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+}
+
+.imgLogo {
+    width: 200px;
+    height: 200px;
+}
+
+/* Estilos que definen el footer */
+
+.footer__fondoVerde--div {
+    background-color: #8d0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.footer__fondoVerde--div { /*Contenedor flex*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__fondoVerde--div-div a { /*Contenido flex*/
+    color: #000;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
